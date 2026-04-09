@@ -30,7 +30,7 @@ Method: B-Tree index lookup
 
 Improvement: ~2.6x faster
 
-Test 2: Client Last Name Search
+## Test 2: Client Last Name Search
 Before Index
 sql
 SELECT * FROM clients WHERE LastName = 'Santos';
